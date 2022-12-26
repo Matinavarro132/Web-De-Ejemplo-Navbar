@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.back{
+    font-size: 50px;
+    color: black;
+    
+}
+
+.navbar{
+width: 100%;
+height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 350px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+.botones a {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.botones a:hover{
+    border-bottom: 3px solid aquamarine;
+}
+
+.sing-in{
+font-size: 25px;
+padding:10px 20px;
+background-color: aliceblue;
+text-decoration: none;
+color: black;
+
+}
+
+.register{
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 1px solid  rgb(146, 129, 250);
+    background-color:  rgb(146, 129, 250);
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}

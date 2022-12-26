@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.back{
+    font-size: 50px;
+    color: black;
+    
+}
+
+
+header{
+    width: 100%;
+   
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    margin-top: 350px;
+    justify-content: space-around;
+
+ }
+
+.iconos{
+    display: flex;
+}
+
+.perfil-img{
+    height: 55px;
+    width: 55px;
+    border-radius: 70%;
+}
+
+.a{
+    color: black;
+}
+
+.coment{
+    font-size: 40px;
+      margin-top: 5px;
+    
+}
+.bell{
+    font-size: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+               
+.buscar-text{
+    width: 0px;
+    background-color: rgb(146, 129, 250);
+    border-radius: 30px;
+    
+    color: black;
+    font-size: 40px;
+    border: 1px solid silver;
+    outline: none;
+    transition: all 0.6s ease;
+    
+}
+
+.buscar:hover .buscar-text{
+    width: 600px;
+}
+
+.buscar .buscar-text:focus{
+width: 600px;
+}    
+
+
+.buscar-btn{
+    position: absolute;
+    font-size: 45px;
+    border-radius: 50px;
+    top:421px;
+    padding: 10px;
+    border: 1px solid silver;
+    cursor: pointer;
+    background-color: rgb(178, 103, 255);
+    
+
+}
